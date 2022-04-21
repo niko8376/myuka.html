@@ -1,0 +1,176 @@
+body{
+    
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+header{
+    text-align: center;
+    background-color: blue;
+    color: blanchedalmond;
+}
+
+
+/* Contact */
+#Contact {
+    background-color: #151515;
+    padding: 20px 30px;
+}
+
+#contact .section-title {
+    color: white;
+    text-align: center;
+}
+
+#contact .contact-form {
+    margin: auto;
+    width: 50vw;
+}
+
+#contact .contact-form label {
+    color: white;
+}
+
+#contact .contact-form .text-input-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"],
+#contact .contact-form textarea {
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#contact .contact-form .submit-button {
+    width: 100px;
+    margin: 50px auto;
+    display: block;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#contact .contact-form .submit-button:hover {
+    background-color: white;
+    color:  #151515;
+    cursor: pointer;
+}
+.blue-section{
+    background-color:blue;
+    color:white;
+}
+#titre {
+    
+    margin: auto;
+    width:89,5%;
+    padding: 70px 70px;
+    text-align: center;
+}
+#ingrédients{
+    
+    background-color: blue;
+    margin: auto;
+    width: 89,5%;
+    padding: 70px 70px;
+    text-align: center;
+    
+}
+#corn{
+    float: left;
+    margin-top:  -5.5%;
+}
+#nutriscore{
+    float: center;
+    margin-top:  -5.5%;
+}
+
+#allergéne{
+    float: right;
+    margin-top:  -12.8%;
+}
+#texte{
+    text-align: center;
+    margin-top: 5%;
+}
+#valeurs{
+    background-color: blue;
+    margin: auto;
+    width: 89,5%;
+    padding: 70px 70px;
+
+}
+#valeur{
+    width: 45%;
+    margin-top: 5%;
+
+}
+#caracteristiques{
+    float: right;
+    width: 45%;
+    margin-top: -6%;
+}
+
+
+
+#photos{
+    background-color: blue;
+    margin: auto;
+    width: 89,5%;
+    padding: 70px 70px;
+    
+}
+#photo1{
+    width: 33%;
+    float: left;
+    margin-left: 10%;
+
+}
+#photo2{
+    width: 20%;
+    float: center;
+    margin-top:  -12%;
+    margin-left: 36.5%;
+  
+}
+#photo3{
+    float: right;
+    margin-top: -25%;
+    margin-right: 15%;
+}
+
+    #bloc-vide-1{
+        margin: auto;
+        width: 89,5%;
+        padding: 70px 70px;
+    }
+
+    #bloc-vide-2{
+        margin: auto;
+        width: 89,5%;
+        padding:70PX 70PX ;
+    }
+
+    #bloc-vide-3{
+        margin: auto;
+        width: 89,5%;
+        padding: 70px 70px;
+    }
+
+    /* Pied de page */
+footer { margin: auto;
+    width: 89,5%;
+    padding: 70px 70px;
+    text-align: center;
+    
+    
+}
