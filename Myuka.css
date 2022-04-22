@@ -18,7 +18,7 @@ header{
     padding: 20px 30px;
 }
 
-#contact .section-title {
+.section-title {
     color: white;
     text-align: center;
 }
@@ -85,7 +85,16 @@ header{
     text-align: center;
     
 }
-#corn{
+.illustrations{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 100 0px;
+    width: 40%;
+}
+#corn, #nutriscore, #allergéne, #texte{
+    height: 200px;
+}
+/* #corn{
     float: left;
     margin-top:  -5.5%;
 }
@@ -97,10 +106,13 @@ header{
 #allergéne{
     float: right;
     margin-top:  -12.8%;
-}
+} */
 #texte{
     text-align: center;
-    margin-top: 5%;
+    /* margin-top: 5%; */
+}
+#texte p{
+    margin-top: 10%;
 }
 #valeurs{
     background-color: blue;
@@ -127,26 +139,16 @@ header{
     margin: auto;
     width: 89,5%;
     padding: 70px 70px;
+    text-align: center;
     
 }
-#photo1{
-    width: 33%;
-    float: left;
-    margin-left: 10%;
-
+#photos div{
+    display: inline-block;
+    width: 30%;    
 }
-#photo2{
-    width: 20%;
-    float: center;
-    margin-top:  -12%;
-    margin-left: 36.5%;
-  
-}
-#photo3{
-    float: right;
-    margin-top: -25%;
-    margin-right: 15%;
-}
+#photo1, #photo2, #photo3{
+    height: 150px;
+} 
 
     #bloc-vide-1{
         margin: auto;
